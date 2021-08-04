@@ -10,8 +10,8 @@ namespace SQLChallenges.Models
     {
         // Primary key
         public Guid HouseId { get; set; }
-        public decimal NumberOfBedrooms { get; set; }
-        public decimal NumberOfBaths { get; set; }
+        public float NumberOfBedrooms { get; set; }
+        public float NumberOfBaths { get; set; }
         public decimal EstimatedValue { get; set; }
     }
 }

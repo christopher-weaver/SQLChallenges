@@ -12,7 +12,7 @@ namespace SQLChallenges.Models
         public Guid TechnicianId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public decimal CustomerRating { get; set; }
+        public float CustomerRating { get; set; }
 
         // Foreign key
         public Guid VehicleId { get; set; }

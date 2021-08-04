@@ -45,16 +45,16 @@
   <ItemGroup>
     <Compile Include="Example\Customer.cs" />
     <Compile Include="Example\Order.cs" />
-    <Compile Include="Models\Course.cs" />
-    <Compile Include="Models\Flight.cs" />
-    <Compile Include="Models\House.cs" />
-    <Compile Include="Models\Listing.cs" />
-    <Compile Include="Models\MessageThread.cs" />
-    <Compile Include="Models\Professor.cs" />
-    <Compile Include="Models\Student.cs" />
-    <Compile Include="Models\Technician.cs" />
-    <Compile Include="Models\User.cs" />
-    <Compile Include="Models\Vehicle.cs" />
+    <Compile Include="Bonus\Course.cs" />
+    <Compile Include="Challenge 1\Flight.cs" />
+    <Compile Include="Challenge 3\House.cs" />
+    <Compile Include="Challenge 3\Listing.cs" />
+    <Compile Include="Challenge 4\MessageThread.cs" />
+    <Compile Include="Bonus\Professor.cs" />
+    <Compile Include="Bonus\Student.cs" />
+    <Compile Include="Challenge 2\Technician.cs" />
+    <Compile Include="Challenge 4\User.cs" />
+    <Compile Include="Challenge 2\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

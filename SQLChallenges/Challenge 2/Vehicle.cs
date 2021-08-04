@@ -12,6 +12,6 @@ namespace SQLChallenges.Models
         public Guid VehicleId { get; set; }
         public string licensePlate { get; set; }
         public string VIN { get; set; }
-        public decimal Miles { get; set; }
+        public float Miles { get; set; }
     }
 }
