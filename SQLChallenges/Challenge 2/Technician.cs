@@ -13,9 +13,6 @@ namespace SQLChallenges.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public float CustomerRating { get; set; }
-
-        // Foreign key
-        public Guid VehicleId { get; set; }
         public Vehicle Vehicle { get; set; }
 
     }

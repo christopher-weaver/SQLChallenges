@@ -12,7 +12,6 @@ namespace SQLChallenges.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public bool IsTenured { get; set; }
-        public List<int> CourseIds { get; set; } = new List<int>();
         public List<Course> Courses { get; set; } = new List<Course>();
     }
 }

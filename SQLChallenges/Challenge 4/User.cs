@@ -13,9 +13,6 @@ namespace SQLChallenges.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime JoinedOn { get; set; }
-
-        // Foreign keys (many-to-many)
-        public List<int> MessageThreadIds { get; set; } = new List<int>();
         public List<MessageThread> MessageThreads { get; set; } = new List<MessageThread>();
     }
 }

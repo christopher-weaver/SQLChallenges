@@ -12,9 +12,6 @@ namespace SQLChallenges.Models
         public Guid ListingId { get; set; }
         public DateTime DateListed { get; set; }
         public bool IsRental { get; set; }
-
-        // Foreign key
-        public Guid HouseId { get; set; }
         public House House { get; set; }
     }
 }
